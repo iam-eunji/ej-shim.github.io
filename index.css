@@ -1,0 +1,56 @@
+/* Default */
+
+* {
+    margin : 0; 
+    padding : 0;
+}
+img {
+    vertical-align: middle;
+}
+body {
+    background-color:rgb(36, 36, 36) ;
+    color: rgb(172, 172, 172);
+    font-family: 'KoPub Batang', serif;
+}
+a{ 
+    text-decoration: none;
+    color: rgb(172, 172, 172);
+}
+ol, ul {
+    list-style: none;
+}
+.container {
+    margin: 0 auto;
+}
+
+
+
+/* header */
+/* 헤더 전체 */
+header {
+    width: 100%;
+    height: 80px; 
+}
+/* 제목부 설정 */
+h1 {
+    float: left;
+    width: 30%; 
+    height: 80px;
+}
+h1 a { 
+    display: block;
+    padding: 20px 0 0 15px; 
+    color: white;
+}
+/* 메뉴부분 설정 */
+header nav {
+    float:left;
+    width:70%;
+    height:80px;
+    background-color: pink;
+}
+
+header nav ul li {
+    height: 33.33333333%;
+    width: 100%;
+}
